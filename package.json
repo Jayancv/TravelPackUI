@@ -1,0 +1,19 @@
+{
+  "name": "reservation-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "common-lib",
+    "tour-setup",
+    "search-book",
+    "playwright-tests"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
